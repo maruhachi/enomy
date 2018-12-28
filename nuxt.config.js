@@ -35,6 +35,11 @@ module.exports = {
   plugins: [
   ],
 
+  env: {
+    // show Git branch name by Netlify.
+    branchName: process.env.BRANCH || 'Local'
+  },
+
   /*
   ** Nuxt.js modules
   */
