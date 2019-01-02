@@ -1,8 +1,24 @@
 <template>
   <div>
     <nuxt/>
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>{{ branchName }}</p>
+      </div>
+    </footer>
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      branchName: process.env.branchName
+    };
+  }
+}
+</script>
+
 
 <style>
 html {
