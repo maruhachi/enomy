@@ -1,8 +1,11 @@
 # enomy
 
-> you can (not) gather picture from &#34;eshi&#34;
+> you can (not) gather picture from "eshi"
 
-[Site page](https://enomy.yko.tech)
+* Site page - Netlify
+  * [master Page](https://enomy.yko.tech/)
+  * [staging page](https://develop--kind-ritchie-3cc313.netlify.com/)
+  * [Setting](https://app.netlify.com/sites/kind-ritchie-3cc313)
 
 ## Memo
 * [Netlify初期設定](https://qiita.com/_neekoko/items/aaedba104bb4997ab976)
