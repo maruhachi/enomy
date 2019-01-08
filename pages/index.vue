@@ -1,6 +1,5 @@
 <template>
-  <section class="container">
-    <div>
+    <div class="container is-fluid">
       <logo/>
       <h1 class="title">
         enomy
@@ -19,7 +18,6 @@
           class="button--grey">GitHub</a>
       </div>
     </div>
-  </section>
 </template>
 
 <script>
@@ -33,10 +31,9 @@ export default {
 </script>
 
 <style>
-
 .container {
-  min-height: 100vh;
-  display: flex;
+  /* min-height: 100vh;
+  display: flex; */
   justify-content: center;
   align-items: center;
   text-align: center;
