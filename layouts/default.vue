@@ -1,12 +1,26 @@
 <template>
-  <div>
+  <section class="section">
+    <header class="header">
+      <div class="container">
+        <nav class="navbar">
+          <div class="navbar-menu">
+            <div class="navbar-start">
+              <a href="" class="navbar-item button is-medium">index</a>
+              <a href="" class="navbar-item button is-medium"><i class="fab fa-twitter"></i>pictures</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
     <nuxt/>
     <footer class="footer">
+      <div class="container">
       <div class="content has-text-centered">
         <p>{{ branchName }}</p>
       </div>
+      </div>
     </footer>
-  </div>
+  </section>
 </template>
 
 <script>

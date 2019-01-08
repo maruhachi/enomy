@@ -1,20 +1,22 @@
 <template>
-  <section class="container">
-    <div>
-      <h1 class="title">Pictures</h1>
-      <h2 class="subtitle">you can (not) gather picture from &#34;eshi&#34;</h2>
-    </div>
-    <div>
-      <p>{{ host }}</p>
-      <p>{{ content }}</p>
-      <button @click="fetchData">UUIDリクエスト</button>
-    </div>
+  <div class="container">
     <div class="tile is-vertical">
-      <div class="tile">
-        <tweet/>
+      <div class="tile is-child">
+        <h1 class="title">Pictures</h1>
+        <h2 class="subtitle">you can (not) gather picture from &#34;eshi&#34;</h2>
+      </div>
+      <div class="tile is-child">
+        <p>{{ host }}</p>
+        <p>{{ content }}</p>
+        <button @click="fetchData">UUIDリクエスト</button>
+      </div>
+      <div class="tile is-child">
+        <div class="tile">
+          <tweet/>
+        </div>
       </div>
     </div>
-  </section>
+  </div>
 </template>
 
 <script>
