@@ -5,8 +5,8 @@
         <nav class="navbar">
           <div class="navbar-menu">
             <div class="navbar-start">
-              <a href="" class="navbar-item button is-medium">index</a>
-              <a href="" class="navbar-item button is-medium"><i class="fab fa-twitter"></i>pictures</a>
+              <nuxt-link to="/" class="navbar-item button is-medium">Index</nuxt-link>
+              <nuxt-link to="/pictures" class="navbar-item button is-medium">Pictures</nuxt-link>
             </div>
           </div>
         </nav>
@@ -15,9 +15,9 @@
     <nuxt/>
     <footer class="footer">
       <div class="container">
-      <div class="content has-text-centered">
-        <p>{{ branchName }}</p>
-      </div>
+        <div class="content has-text-centered">
+          <p>{{ branchName }}</p>
+        </div>
       </div>
     </footer>
   </section>
@@ -30,14 +30,14 @@ export default {
       branchName: process.env.branchName
     };
   }
-}
+};
 </script>
 
 
 <style>
 html {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
